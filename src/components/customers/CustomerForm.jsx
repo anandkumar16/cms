@@ -28,9 +28,9 @@ const CustomerForm = ({ customer, onSave, onCancel }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-30 px-4">
+    <div className="fixed inset-0 backdrop-blur-sm bg-black/40 flex items-center justify-center px-4">
       <div className="bg-white rounded-xl shadow-xl p-6 max-w-lg w-full max-h-[90vh] overflow-y-auto">
-        <h3 className="text-xl font-semibold text-gray-900 mb-6">
+        <h3 className="text-2xl font-bold text-gray-900 mb-6 ">
           {customer ? 'Edit Customer' : 'Add New Customer'}
         </h3>
 
@@ -92,13 +92,13 @@ const CustomerForm = ({ customer, onSave, onCancel }) => {
             <button
               type="button"
               onClick={onCancel}
-              className="flex-1 px-4 py-2 text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+              className="flex-1 px-4 py-2 text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
             >
               Cancel
             </button>
             <button
               onClick={handleSubmit}
-              className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              className="flex-1 px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg transition-colors font-medium cursor-pointer"
             >
               {customer ? 'Update' : 'Add'} Customer
             </button>
