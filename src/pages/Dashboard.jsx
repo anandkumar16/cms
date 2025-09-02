@@ -95,7 +95,6 @@ const Dashboard = () => {
           </button>
         </div>
 
-        {/* Customer List */}
         <CustomerList
           customers={filteredCustomers}
           searchTerm={searchTerm}
