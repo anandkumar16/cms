@@ -1,4 +1,3 @@
-import React from 'react';
 import { LogOut } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 
@@ -10,7 +9,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <h1 className="text-xl font-semibold text-gray-900">Customer Management</h1>
+            <h1 className="text-xl font-semibold text-gray-900">CMS</h1>
           </div>
           <div className="flex items-center space-x-4">
             <span className="text-gray-600">Welcome, {user.name}</span>

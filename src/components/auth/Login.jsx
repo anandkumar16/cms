@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { User } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 import { DEMO_CREDENTIALS } from '../../utils/constants';
@@ -35,7 +35,7 @@ const Login = () => {
 
     // Mock login delay
     setTimeout(() => {
-      login({ email: formData.email, name: 'Admin User' });
+      login({ email: formData.email, name: 'Admin' });
       setIsLoading(false);
     }, 1000);
   };

@@ -1,4 +1,3 @@
-import React from 'react';
 import { User, Plus } from 'lucide-react';
 import CustomerCard from './CustomerCard';
 import CustomerTable from './CustomerTable';

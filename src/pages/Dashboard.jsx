@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Search, Plus } from 'lucide-react';
 import Header from '../components/layout/Header';
 import CustomerForm from '../components/customers/CustomerForm';
@@ -22,13 +22,6 @@ const Dashboard = () => {
       phone: '+1987654321',
       address: '456 Oak Ave, Los Angeles, CA'
     },
-    {
-      id: 3,
-      name: 'Mike Johnson',
-      email: 'mike@example.com',
-      phone: '+1122334455',
-      address: '789 Pine Rd, Chicago, IL'
-    }
   ]);
   const [searchTerm, setSearchTerm] = useState('');
   const [showForm, setShowForm] = useState(false);
