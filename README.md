@@ -13,8 +13,8 @@ A modern, responsive React application for managing customer information with au
 
 ## 🧪 Demo Credentials
 
-Email: admin@company.com
-Password: admin123
+- Email: admin@company.com
+- Password: admin123
 
 ## 🛠️ Tech Stack
 
@@ -34,8 +34,8 @@ Password: admin123
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd customer-management-app
+   git clone https://github.com/anandkumar16/cms.git
+   cd cms
    ```
 2. Install dependencies:
 ```
